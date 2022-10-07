@@ -20,6 +20,14 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
 .icon {
   width: 40px;
   height: 40px;
@@ -40,4 +48,53 @@ a {
 }
 li {
   list-style-type: none;
+}
+button {
+  background-color: #fff;
+  padding: 1.0625rem 1.875rem;
+  color: #1eb2a6;
+  font-weight: 600;
+  border: none;
+  margin: 30px 10px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+  transition: 0.5s;
+}
+.row {
+  width: 50%;
+}
+button i {
+  margin-left: 20px;
+}
+button:hover {
+  box-shadow: none;
+}
+.primary-btn {
+  background-color: #1eb2a6;
+  color: #fff;
+}
+.margin {
+  margin-top: 40.3%;
+}
+/* Heading */
+
+.heading {
+  text-align: center;
+  padding: 40px 0;
+}
+.heading h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #1eb2a6;
+  text-transform: uppercase;
+}
+.heading h1 {
+  font-size: 45px;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+.heading p {
+  line-height: 30px;
+  font-size: 18px;
 }

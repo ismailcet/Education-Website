@@ -1,0 +1,47 @@
+.Hero {
+  padding: 20% 3.125rem 0 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../../images/bg.webp");
+  color: #fff;
+}
+.hero_heading {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.hero_heading h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.hero_heading h1 {
+  font-size: 45px;
+  margin: 1.25rem 0;
+  text-transform: capitalize;
+}
+p {
+  line-height: 2.25rem;
+  font-size: 1.125rem;
+}
+@media screen and (max-width: 768px) {
+  .margin {
+    height: 40vh;
+  }
+  .Hero {
+    background-position: right;
+    padding-top: 50%;
+    height: 80vh;
+  }
+  .Hero .row {
+    width: 100%;
+  }
+}

@@ -11,7 +11,10 @@ const Header = () => {
       <Head />
       <header className="header">
         <nav className="flexSB">
-          <ul className="flexSB">
+          <ul
+            className={click ? "mobile-nav" : "flexSB "}
+            onClick={() => setClick(false)}
+          >
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -37,13 +40,13 @@ const Header = () => {
           <div className="start">
             <div className="button">GET CERTIFICATE</div>
           </div>
-          <div className="toggle">
+          <button className="toggle" onClick={() => setClick(!click)}>
             {click ? (
               <i className="fa fa-times"> </i>
             ) : (
               <i className="fa fa-bars"> </i>
             )}
-          </div>
+          </button>
         </nav>
       </header>
     </>
