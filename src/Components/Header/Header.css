@@ -1,0 +1,24 @@
+/* Head Component */
+.head {
+  padding: 1.25rem 0;
+  /* color: #fff; */
+}
+.logo h1 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.head .icon {
+  margin-left: 0.625rem;
+}
+
+/* Header Component */
+.header {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 1.875rem;
+}
+.header nav {
+  display: flex !important;
+}
+.header ul {
+  padding: 1.875rem 1.25rem;
+}
