@@ -1,6 +1,7 @@
 import React from "react";
 import "./CoursesList.css";
 import { online } from "../../Constant/dummydata";
+
 const CoursesList = () => {
   return (
     <div className="coursesList">
