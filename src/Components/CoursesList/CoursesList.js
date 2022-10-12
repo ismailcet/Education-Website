@@ -11,8 +11,8 @@ const CoursesList = () => {
           <h1>Browse Our online Courses</h1>
         </div>
         <div className="content grid3">
-          {online.map((item) => (
-            <div className="box" key={item.id}>
+          {online.map((item, i) => (
+            <div className="box" key={i}>
               <div className="img">
                 <img src={item.cover} alt="" />
                 <img src={item.hoverCover} alt="" className="show" />

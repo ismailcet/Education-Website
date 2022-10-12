@@ -33,8 +33,8 @@ const CoursesAbout = () => {
                       </div>
                       <div className="details">
                         {item.courTeacher.map((teacher, i) => (
-                          <>
-                            <div className="box" key={i}>
+                          <div key={i}>
+                            <div className="box">
                               <div className="dimg">
                                 <img src={teacher.dcover} alt="Teacher Cover" />
                               </div>
@@ -43,7 +43,7 @@ const CoursesAbout = () => {
                               </div>
                             </div>
                             <span>{teacher.totalTime}</span>
-                          </>
+                          </div>
                         ))}
                       </div>
                     </div>

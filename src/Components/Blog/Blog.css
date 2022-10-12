@@ -1,0 +1,49 @@
+.blog-heading {
+  text-align: center;
+  padding: 2.5rem 0;
+}
+.blog-heading h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #1eb2a6;
+  text-transform: uppercase;
+}
+.blog-heading h1 {
+  font-size: 2.8125rem;
+  margin: 1.25rem 0;
+  text-transform: capitalize;
+}
+.Blog img {
+  width: 100%;
+  height: 100%;
+}
+.Blog .text {
+  padding: 2.5rem 1.875rem;
+}
+.Blog span {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #1eb2a6;
+}
+.Blog span label {
+  margin-left: 10px;
+  color: grey;
+  font-size: 14px;
+}
+.Blog span:last-child label {
+  color: #1eb2a6;
+}
+.Blog .blog-title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.875rem;
+  margin: 1.25rem 0;
+  transition: all 0.5s linear;
+}
+.blog-title:hover {
+  color: #1eb2a6;
+  cursor: pointer;
+}
+.Blog p {
+  color: gray;
+}

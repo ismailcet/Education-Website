@@ -1,0 +1,28 @@
+.newLetter {
+  background-color: #1eb2a6;
+  padding: 3.125rem;
+  color: #fff;
+}
+.newLetter h1 {
+  color: #fff;
+  font-size: 1.875rem;
+  font-weight: 500;
+  margin-bottom: 0.9375rem;
+}
+.newLetter .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newLetter input {
+  width: 100%;
+  padding: 1.25rem;
+  border: none;
+  outline: none;
+  height: 1.875rem;
+}
+.newLetter i {
+  padding: 0.75rem;
+  color: #1eb2a6;
+  background-color: #fff;
+}
