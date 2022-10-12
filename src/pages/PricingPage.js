@@ -1,13 +1,13 @@
 import React from "react";
 import Hero from "../Components/Hero/Hero";
-import NewLetter from "../Components/newLetter/NewLetter";
-const Contact = () => {
+import Pricing from "../Components/Pricing/Pricing";
+const PricingPage = () => {
   return (
     <div className="home_page">
       <Hero />
-      <NewLetter />
+      <Pricing />
     </div>
   );
 };
 
-export default Contact;
+export default PricingPage;
